@@ -2,7 +2,7 @@
 build using create-react-app
 
 ## Description
-Displays a list of Products with search filters and add/delete to the list
+Displays a list of Products with search filters and add/delete to the list of products functionalities
 
 install modules:  **npm install**
 
