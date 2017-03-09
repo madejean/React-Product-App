@@ -1,4 +1,5 @@
-# Product App build using create-react-app
+# Product App
+build using create-react-app
 
 ## Description
 Displays a list of Products with search filters and add/delete to the list of products functionality
