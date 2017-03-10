@@ -1,0 +1,11 @@
+exports[`test App component should render as expected 1`] = `
+<div>
+  <header
+    className="App-header">
+    <h1>
+      Products App!
+    </h1>
+  </header>
+  <Products />
+</div>
+`;

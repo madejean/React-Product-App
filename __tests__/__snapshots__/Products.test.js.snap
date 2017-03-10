@@ -1,0 +1,60 @@
+exports[`test Products component should render as expected 1`] = `
+<div>
+  <Filters
+    onFilter={[Function]}
+    searchFilter=""
+    stockOnlyFitler={false} />
+  <ProductTable
+    onDelete={[Function]}
+    products={
+      Object {
+        "1": Object {
+          "category": "Musical Instruments",
+          "id": 1,
+          "name": "Piano",
+          "price": "$459.99",
+          "stocked": true,
+        },
+        "2": Object {
+          "category": "Musical Instruments",
+          "id": 2,
+          "name": "Violon",
+          "price": "$5,000",
+          "stocked": true,
+        },
+        "3": Object {
+          "category": "Furniture",
+          "id": 3,
+          "name": "Sofa",
+          "price": "$11,000",
+          "stocked": false,
+        },
+        "4": Object {
+          "category": "Furniture",
+          "id": 4,
+          "name": "Dresser",
+          "price": "$799",
+          "stocked": true,
+        },
+        "5": Object {
+          "category": "Furniture",
+          "id": 5,
+          "name": "Dining Table",
+          "price": "$1,300",
+          "stocked": false,
+        },
+        "6": Object {
+          "category": "Furniture",
+          "id": 6,
+          "name": "TV",
+          "price": "$300",
+          "stocked": true,
+        },
+      }
+    }
+    searchFilter=""
+    stockOnlyFitler={false} />
+  <ProductForm
+    onSave={[Function]} />
+</div>
+`;

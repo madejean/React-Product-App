@@ -1,0 +1,62 @@
+exports[`test ProductForm component should render as expected 1`] = `
+<form>
+  <h3>
+    Enter a new product
+  </h3>
+  <p>
+    <label>
+      Name
+    </label>
+    <br />
+    <input
+      className=""
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value="" />
+    <span
+      style={
+        Object {
+          "color": "red",
+        }
+      } />
+  </p>
+  <p>
+    <label>
+      Category
+    </label>
+    <br />
+    <input
+      name="category"
+      onChange={[Function]}
+      type="text"
+      value="" />
+  </p>
+  <p>
+    <label>
+      Price
+    </label>
+    <br />
+    <input
+      name="price"
+      onChange={[Function]}
+      type="text"
+      value="" />
+  </p>
+  <p>
+    <label>
+      In stock?
+    </label>
+    <br />
+    <input
+      checked={false}
+      name="stocked"
+      onChange={[Function]}
+      type="checkbox" />
+  </p>
+  <input
+    onClick={[Function]}
+    type="submit"
+    value="save" />
+</form>
+`;

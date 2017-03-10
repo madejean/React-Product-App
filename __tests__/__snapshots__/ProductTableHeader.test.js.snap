@@ -1,0 +1,17 @@
+exports[`test ProductTableHeader component should render as expected 1`] = `
+<th>
+  price
+  <button
+    className=""
+    name="asc"
+    onClick={[Function]}>
+    ▲
+  </button>
+  <button
+    className=""
+    name="desc"
+    onClick={[Function]}>
+    ▼
+  </button>
+</th>
+`;

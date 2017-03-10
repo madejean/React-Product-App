@@ -1,0 +1,17 @@
+exports[`test Filters component should render as expected 1`] = `
+<form
+  className="Filters-container">
+  <input
+    name="searchFilter"
+    onChange={[Function]}
+    placeholder="Search..."
+    type="text" />
+  <p>
+    <input
+      name="stockOnlyFitler"
+      onChange={[Function]}
+      type="checkbox" />
+    Only Show products in stock
+  </p>
+</form>
+`;

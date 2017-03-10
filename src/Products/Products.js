@@ -3,7 +3,7 @@ import Filters from './Filters.js';
 import ProductForm from './ProductForm';
 import ProductTable from './ProductTable.js';
 
-var PRODUCTS = {
+export var PRODUCTS = {
   '1': {id: 1, category: 'Musical Instruments', price: '$459.99', stocked: true, name: 'Piano'},
   '2': {id: 2, category: 'Musical Instruments', price: '$5,000', stocked: true, name: 'Violon'},
   '3': {id: 3, category: 'Furniture', price: '$11,000', stocked: false, name: 'Sofa'},

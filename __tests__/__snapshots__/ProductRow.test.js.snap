@@ -1,0 +1,19 @@
+exports[`test ProductRow component should render as expected 1`] = `
+<tr>
+  <td>
+    <span
+      style={
+        Object {
+          "color": "red",
+        }
+      } />
+  </td>
+  <td />
+  <td>
+    <button
+      onClick={[Function]}>
+      x
+    </button>
+  </td>
+</tr>
+`;

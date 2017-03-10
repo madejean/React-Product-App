@@ -12,6 +12,7 @@ class ProductTable extends React.Component {
       }
     };
     this.sortByColumnAndDirection = this.sortByColumnAndDirection.bind(this);
+    this.sortProducts = this.sortProducts.bind(this);
     this.handleSort = this.handleSort.bind(this);
     this.handleDelete = this.handleDelete.bind(this);
   }

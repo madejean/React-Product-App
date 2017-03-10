@@ -1,0 +1,29 @@
+exports[`test ProductTable component should render as expected 1`] = `
+<div>
+  <table>
+    <thead>
+      <tr>
+        <ProductTableHeader
+          columnHeader="name"
+          currentSortOption={
+            Object {
+              "columnHeader": "name",
+              "direction": "desc",
+            }
+          }
+          onSort={[Function]} />
+        <ProductTableHeader
+          columnHeader="price"
+          currentSortOption={
+            Object {
+              "columnHeader": "name",
+              "direction": "desc",
+            }
+          }
+          onSort={[Function]} />
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
